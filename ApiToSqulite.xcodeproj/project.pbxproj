@@ -13,6 +13,14 @@
 		184813322C366CD000B7F50A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184813302C366CD000B7F50A /* Main.storyboard */; };
 		184813342C366CD200B7F50A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184813332C366CD200B7F50A /* Assets.xcassets */; };
 		184813372C366CD200B7F50A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184813352C366CD200B7F50A /* LaunchScreen.storyboard */; };
+		1848133F2C36750A00B7F50A /* ServerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848133E2C36750A00B7F50A /* ServerViewController.swift */; };
+		184813422C3677A300B7F50A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184813412C3677A300B7F50A /* Person.swift */; };
+		184813452C3691AD00B7F50A /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184813432C3691AD00B7F50A /* UserTableViewCell.swift */; };
+		184813462C3691AD00B7F50A /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184813442C3691AD00B7F50A /* UserTableViewCell.xib */; };
+		184813482C36ABF300B7F50A /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184813472C36ABF300B7F50A /* DBHelper.swift */; };
+		1848134B2C36B47A00B7F50A /* SqliteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184813492C36B47A00B7F50A /* SqliteTableViewCell.swift */; };
+		1848134C2C36B47A00B7F50A /* SqliteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1848134A2C36B47A00B7F50A /* SqliteTableViewCell.xib */; };
+		1848134E2C36B53C00B7F50A /* SquliteDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848134D2C36B53C00B7F50A /* SquliteDataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		184813332C366CD200B7F50A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		184813362C366CD200B7F50A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		184813382C366CD200B7F50A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1848133E2C36750A00B7F50A /* ServerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerViewController.swift; sourceTree = "<group>"; };
+		184813412C3677A300B7F50A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		184813432C3691AD00B7F50A /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		184813442C3691AD00B7F50A /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		184813472C36ABF300B7F50A /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		184813492C36B47A00B7F50A /* SqliteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqliteTableViewCell.swift; sourceTree = "<group>"; };
+		1848134A2C36B47A00B7F50A /* SqliteTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SqliteTableViewCell.xib; sourceTree = "<group>"; };
+		1848134D2C36B53C00B7F50A /* SquliteDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquliteDataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +75,18 @@
 				1848132A2C366CD000B7F50A /* AppDelegate.swift */,
 				1848132C2C366CD000B7F50A /* SceneDelegate.swift */,
 				1848132E2C366CD000B7F50A /* ViewController.swift */,
+				1848133E2C36750A00B7F50A /* ServerViewController.swift */,
+				1848134D2C36B53C00B7F50A /* SquliteDataViewController.swift */,
+				184813442C3691AD00B7F50A /* UserTableViewCell.xib */,
+				184813432C3691AD00B7F50A /* UserTableViewCell.swift */,
 				184813302C366CD000B7F50A /* Main.storyboard */,
 				184813332C366CD200B7F50A /* Assets.xcassets */,
 				184813352C366CD200B7F50A /* LaunchScreen.storyboard */,
 				184813382C366CD200B7F50A /* Info.plist */,
+				184813412C3677A300B7F50A /* Person.swift */,
+				184813472C36ABF300B7F50A /* DBHelper.swift */,
+				184813492C36B47A00B7F50A /* SqliteTableViewCell.swift */,
+				1848134A2C36B47A00B7F50A /* SqliteTableViewCell.xib */,
 			);
 			path = ApiToSqulite;
 			sourceTree = "<group>";
@@ -125,6 +149,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184813462C3691AD00B7F50A /* UserTableViewCell.xib in Resources */,
+				1848134C2C36B47A00B7F50A /* SqliteTableViewCell.xib in Resources */,
 				184813372C366CD200B7F50A /* LaunchScreen.storyboard in Resources */,
 				184813342C366CD200B7F50A /* Assets.xcassets in Resources */,
 				184813322C366CD000B7F50A /* Main.storyboard in Resources */,
@@ -138,9 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184813422C3677A300B7F50A /* Person.swift in Sources */,
+				1848134B2C36B47A00B7F50A /* SqliteTableViewCell.swift in Sources */,
 				1848132F2C366CD000B7F50A /* ViewController.swift in Sources */,
 				1848132B2C366CD000B7F50A /* AppDelegate.swift in Sources */,
+				184813482C36ABF300B7F50A /* DBHelper.swift in Sources */,
 				1848132D2C366CD000B7F50A /* SceneDelegate.swift in Sources */,
+				184813452C3691AD00B7F50A /* UserTableViewCell.swift in Sources */,
+				1848134E2C36B53C00B7F50A /* SquliteDataViewController.swift in Sources */,
+				1848133F2C36750A00B7F50A /* ServerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
